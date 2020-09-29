@@ -6,6 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Engine\ExpressionBuilder.cs" />
+    <Compile Include="Engine\ExpressionRuleLoader.cs" />
+    <Compile Include="Engine\Rule.cs" />
+    <Compile Include="Engine\RuleEngine.cs" />
+    <Compile Include="Engine\RuleValidator.cs" />
+    <Compile Include="Enum\ObjectType.cs" />
+    <Compile Include="Enum\Operator.cs" />
+    <Compile Include="Enum\ResultEnum.cs" />
+    <Compile Include="Enum\TokenType.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
 
