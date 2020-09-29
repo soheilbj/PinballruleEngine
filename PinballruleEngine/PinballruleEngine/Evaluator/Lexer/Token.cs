@@ -1,6 +1,6 @@
 ﻿using PinballruleEngine.Enum;
 
-namespace PinballruleEngine.Evaluator
+namespace PinballruleEngine.RuleEngine
 {
     public class Token
     {

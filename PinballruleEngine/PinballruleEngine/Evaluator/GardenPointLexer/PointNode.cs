@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace PinballruleEngine.Evaluator.GardenPointLexer
+namespace PinballruleEngine.RuleEngine
 {
     public class PointNode : AbstractSyntaxTreeNode
     {

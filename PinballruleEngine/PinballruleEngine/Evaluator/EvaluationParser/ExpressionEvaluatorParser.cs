@@ -1,11 +1,8 @@
 ﻿using PinballruleEngine.Enum;
-using PinballruleEngine.Evaluator.GardenPointLexer;
-using PinballruleEngine.Evaluator.GardenPointLexer.AggregateFunctions;
-using PinballruleEngine.Evaluator.GardenPointLexer.StringFunctions;
 using System;
 using System.Collections.Generic;
 
-namespace PinballruleEngine.Evaluator.EvaluationParser
+namespace PinballruleEngine.RuleEngine
 {
     public class ExpressionEvaluatorParser : Parser
     {

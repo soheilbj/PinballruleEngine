@@ -1,20 +1,16 @@
-﻿using PinballruleEngine.Evaluator;
-using PinballruleEngine.Evaluator.EvaluationParser;
-using PinballruleEngine.Evaluator.GardenPointLexer;
-using PinballruleEngine.ExpressionEvaluation;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
-namespace PinballruleEngine.Evaluation
+namespace PinballruleEngine.RuleEngine
 {
     public class Evaluator
     {
         public bool Evaluate<T>(string evaluationText, T objectValue)
         {
             ExpressionEvaluatorLexer expressionEvaluatorLexer = new ExpressionEvaluatorLexer(evaluationText, 1);
-            ExpressionEvaluatorParser expressionEvaluatorParser = new PinballruleEngine.Evaluator.EvaluationParser.ExpressionEvaluatorParser(expressionEvaluatorLexer);
+            ExpressionEvaluatorParser expressionEvaluatorParser = new ExpressionEvaluatorParser(expressionEvaluatorLexer);
             var AbstractSyntaxTreeNodeList = expressionEvaluatorParser.BuildParseTree();
-            ExpressionEvaluatorExecutor expressionEvaluator = new PinballruleEngine.Evaluator.EvaluationParser.ExpressionEvaluatorExecutor();
+            ExpressionEvaluatorExecutor expressionEvaluator = new ExpressionEvaluatorExecutor();
             var result = expressionEvaluator.Evaluate<T>(AbstractSyntaxTreeNodeList, expressionEvaluatorParser.SymbolTable, objectValue);
             return result;
         }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PinballruleEngine.Parser
+namespace PinballruleEngine.RuleEngine
 {
     public class StatusTransition
     {

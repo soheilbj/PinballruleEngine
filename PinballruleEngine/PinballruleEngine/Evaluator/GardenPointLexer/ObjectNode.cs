@@ -1,6 +1,4 @@
-﻿using PinballruleEngine.Evaluator.GardenPointLexer.AggregateFunctions;
-
-namespace PinballruleEngine.Evaluator.GardenPointLexer
+﻿namespace PinballruleEngine.RuleEngine
 {
     public class ObjectNode : AbstractSyntaxTreeNode
     {

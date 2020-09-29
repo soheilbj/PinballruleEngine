@@ -39,7 +39,6 @@
     <Compile Include="Evaluator\GardenPointLexer\AggregateFunctions\AggregateNode.cs" />
     <Compile Include="Evaluator\GardenPointLexer\AggregateFunctions\AggregateNotInNode.cs" />
     <Compile Include="Evaluator\GardenPointLexer\AggregateFunctions\AggregateSumNode.cs" />
-    <Compile Include="Evaluator\GardenPointLexer\AggregateFunctions\Class1.cs" />
     <Compile Include="Evaluator\GardenPointLexer\AndNode.cs" />
     <Compile Include="Evaluator\GardenPointLexer\BinaryNode.cs" />
     <Compile Include="Evaluator\GardenPointLexer\BooleanNode.cs" />
@@ -98,7 +97,6 @@
     <Compile Include="Parser\StateMachine.cs" />
     <Compile Include="Parser\StateMachineBuilder.cs" />
     <Compile Include="Parser\StatusTransition.cs" />
-    <Compile Include="Program.cs" />
   </ItemGroup>
 
 </Project>

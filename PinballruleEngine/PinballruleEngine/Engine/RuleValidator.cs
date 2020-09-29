@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Reflection;
-using PinballruleEngine.Evaluation;
 
-namespace PinballruleEngine.Engine
+namespace PinballruleEngine.RuleEngine
 {
     public class RuleValidator
     {
@@ -12,7 +11,7 @@ namespace PinballruleEngine.Engine
         {
             if (rule.ProcessingRule != string.Empty)
             {
-                PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+                Evaluator evaluator = new Evaluator();
                 return evaluator.Evaluate<T>(rule.ProcessingRule, value);
             }
             return false;
@@ -22,7 +21,7 @@ namespace PinballruleEngine.Engine
         {
             if (rule.ProcessingRule != string.Empty)
             {
-                PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+                Evaluator evaluator = new Evaluator();
                 return evaluator.EvaluateDynamic(rule.ProcessingRule, value);
             }
             return false;
@@ -32,7 +31,7 @@ namespace PinballruleEngine.Engine
         {
             if (rule.ProcessingRule != string.Empty)
             {
-                PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+                Evaluator evaluator = new Evaluator();
                 return evaluator.EvaluateDynamic(rule.ProcessingRule, value, collection);
             }
             return false;
@@ -40,7 +39,7 @@ namespace PinballruleEngine.Engine
 
         public bool ValidateExpressionRulesAll<T>(T value, Rule[] rules)
         {
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             foreach (var rule in rules)
             {
                 if (rule.ProcessingRule != string.Empty)
@@ -54,7 +53,7 @@ namespace PinballruleEngine.Engine
 
         public bool ValidateExpressionRulesAll(dynamic value, Rule[] rules)
         {
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             foreach (var rule in rules)
             {
                 if (rule.ProcessingRule != string.Empty)
@@ -69,7 +68,7 @@ namespace PinballruleEngine.Engine
 
         public bool ValidateExpressionRulesAny<T>(T value, Rule[] rules)
         {
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             foreach (var rule in rules)
             {
                 if (rule.ProcessingRule != string.Empty)
@@ -83,7 +82,7 @@ namespace PinballruleEngine.Engine
 
         public bool ValidateExpressionRulesAny(dynamic value, Rule[] rules)
         {
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             foreach (var rule in rules)
             {
                 if (rule.ProcessingRule != string.Empty)
@@ -97,7 +96,7 @@ namespace PinballruleEngine.Engine
 
         public bool ValidateExpressionRulesAll<T>(T[] values, Rule[] rules)
         {
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             foreach (var value in values)
             {
                 foreach (var rule in rules)
@@ -114,7 +113,7 @@ namespace PinballruleEngine.Engine
 
         public bool ValidateExpressionRulesAll(dynamic[] values, Rule[] rules)
         {
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             foreach (var value in values)
             {
                 foreach (var rule in rules)
@@ -129,9 +128,9 @@ namespace PinballruleEngine.Engine
             return true;
         }
 
-        public bool ValidateExpressionRulesAll(Evaluator.DynamicBaseClass value, Rule[] rules)
+        public bool ValidateExpressionRulesAll(DynamicBaseClass value, Rule[] rules)
         {
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             foreach (var rule in rules)
             {
                 if (rule.ProcessingRule != string.Empty)
@@ -143,9 +142,9 @@ namespace PinballruleEngine.Engine
             return true;
         }
 
-        public bool ValidateExpressionRulesAll(Evaluator.DynamicBaseClass[] values, Rule[] rules)
+        public bool ValidateExpressionRulesAll(DynamicBaseClass[] values, Rule[] rules)
         {
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             foreach (var rule in rules)
             {
                 if (rule.ProcessingRule != string.Empty)
@@ -159,7 +158,7 @@ namespace PinballruleEngine.Engine
 
         public List<Tuple<T, Rule, bool>> ValidateExpressionRules<T>(T[] values, Rule[] rules)
         {
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             List<Tuple<T, Rule, bool>> list = new List<Tuple<T, Rule, bool>>();
             foreach (var value in values)
             {
@@ -183,7 +182,7 @@ namespace PinballruleEngine.Engine
 
         public List<Tuple<dynamic, Rule, bool>> ValidateExpressionRules(dynamic[] values, Rule[] rules)
         {
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             List<Tuple<dynamic, Rule, bool>> list = new List<Tuple<dynamic, Rule, bool>>();
             foreach (var value in values)
             {
@@ -207,7 +206,7 @@ namespace PinballruleEngine.Engine
 
         public bool ValidateExpressionRulesAll<T>(T[] values, string evaluatorExpression)
         {
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             var tuple = evaluator.PreEvaluate<T>(evaluatorExpression);
             foreach (var value in values)
             {
@@ -219,7 +218,7 @@ namespace PinballruleEngine.Engine
 
         public bool ValidateExpressionRulesAll(dynamic[] values, string evaluatorExpression)
         {
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             var tuple = evaluator.PreEvaluateDynamic(evaluatorExpression);
             foreach (var value in values)
             {
@@ -232,7 +231,7 @@ namespace PinballruleEngine.Engine
         public int ValidateExpressionRulesCount<T>(T[] values, Rule[] rules)
         {
             var count = 0;
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             foreach (var value in values)
             {
                 var passedAllRules = true;
@@ -253,7 +252,7 @@ namespace PinballruleEngine.Engine
         public int ValidateExpressionRulesCount(dynamic[] values, Rule[] rules)
         {
             var count = 0;
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             foreach (var value in values)
             {
                 var passedAllRules = true;
@@ -273,7 +272,7 @@ namespace PinballruleEngine.Engine
 
         public bool ValidateExpressionRulesAny<T>(T[] values, Rule[] rules)
         {
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             foreach (var value in values)
             {
                 bool validated = false;
@@ -296,7 +295,7 @@ namespace PinballruleEngine.Engine
 
         public bool ValidateExpressionRulesAny(dynamic[] values, Rule[] rules)
         {
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             foreach (var value in values)
             {
                 bool validated = false;
@@ -319,7 +318,7 @@ namespace PinballruleEngine.Engine
 
         public bool ValidateExpressionRulesAny<T>(T[] values, List<Rule> rules)
         {
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             foreach (var value in values)
             {
                 bool validated = false;
@@ -342,7 +341,7 @@ namespace PinballruleEngine.Engine
 
         public bool ValidateExpressionRulesAny(dynamic[] values, List<Rule> rules)
         {
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             foreach (var value in values)
             {
                 bool validated = false;
@@ -395,7 +394,7 @@ namespace PinballruleEngine.Engine
         public int ValidateRuleCount<T>(T[] values, Rule rule)
         {
             var count = 0;
-            PinballruleEngine.Evaluation.Evaluator evaluator = new PinballruleEngine.Evaluation.Evaluator();
+            Evaluator evaluator = new Evaluator();
             foreach (var value in values)
             {
                 if (rule.ProcessingRule != string.Empty)

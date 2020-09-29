@@ -1,6 +1,6 @@
 ﻿using PinballruleEngine.Enum;
 
-namespace PinballruleEngine.Parser
+namespace PinballruleEngine.RuleEngine
 {
     public class Result
     {

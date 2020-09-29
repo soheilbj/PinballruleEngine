@@ -1,6 +1,4 @@
-﻿using PinballruleEngine.Evaluator.GardenPointLexer;
-
-namespace PinballruleEngine.Evaluator.EvaluationParser
+﻿namespace PinballruleEngine.RuleEngine
 {
     public class ThenElse
     {

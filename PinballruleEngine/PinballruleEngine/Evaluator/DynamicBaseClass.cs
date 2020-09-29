@@ -4,7 +4,7 @@
 using PinballruleEngine.Enum;
 using System.Collections.Generic;
 
-namespace PinballruleEngine.Evaluator
+namespace PinballruleEngine.RuleEngine
 {
     public class DynamicBaseClass : System.Dynamic.DynamicObject
     {

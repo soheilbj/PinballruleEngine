@@ -1,4 +1,4 @@
-﻿namespace PinballruleEngine.Parser
+﻿namespace PinballruleEngine.RuleEngine
 {
     public class RegularExpressionPart
     {

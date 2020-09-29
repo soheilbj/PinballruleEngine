@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace PinballruleEngine.Parser
+namespace PinballruleEngine.RuleEngine
 {
     public class StateMachine
     {

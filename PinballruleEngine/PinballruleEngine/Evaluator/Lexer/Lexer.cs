@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PinballruleEngine.Evaluator
+namespace PinballruleEngine.RuleEngine
 {
     public abstract class Lexer
     {

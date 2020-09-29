@@ -1,4 +1,4 @@
-﻿namespace PinballruleEngine.Engine
+﻿namespace PinballruleEngine.RuleEngine
 {
     public class ExpressionRuleLoader
     {

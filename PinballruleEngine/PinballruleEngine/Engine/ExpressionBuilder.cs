@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using PinballruleEngine.Enum;
 
-namespace PinballruleEngine.Engine
+namespace PinballruleEngine.RuleEngine
 {
     internal class ExpressionBuilder
     {

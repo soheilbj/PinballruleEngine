@@ -6,4 +6,3 @@ C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\Pin
 C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine\bin\Debug\netcoreapp3.1\PinballruleEngine.pdb
 C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine\obj\Debug\netcoreapp3.1\PinballruleEngine.dll
 C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine\obj\Debug\netcoreapp3.1\PinballruleEngine.pdb
-C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine\obj\Debug\netcoreapp3.1\PinballruleEngine.csprojAssemblyReference.cache

@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;using PinballruleEngine.Evaluator.GardenPointLexer;
-using PinballruleEngine.Evaluator.GardenPointLexer.AggregateFunctions;
-
-namespace PinballruleEngine.Evaluator.EvaluationParser
+using System.Linq;
+namespace PinballruleEngine.RuleEngine
 {
     public class ExpressionEvaluatorDynamic : EvaluatorBase
     {

@@ -1,0 +1,16 @@
+C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine.Test\obj\Debug\netcoreapp3.1\PinballruleEngine.Test.AssemblyInfoInputs.cache
+C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine.Test\obj\Debug\netcoreapp3.1\PinballruleEngine.Test.AssemblyInfo.cs
+C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine.Test\obj\Debug\netcoreapp3.1\PinballruleEngine.Test.csproj.CoreCompileInputs.cache
+C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine.Test\obj\Debug\netcoreapp3.1\PinballruleEngine.Test.csprojAssemblyReference.cache
+C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine.Test\bin\Debug\netcoreapp3.1\PinballruleEngine.Test.exe
+C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine.Test\bin\Debug\netcoreapp3.1\PinballruleEngine.Test.deps.json
+C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine.Test\bin\Debug\netcoreapp3.1\PinballruleEngine.Test.runtimeconfig.json
+C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine.Test\bin\Debug\netcoreapp3.1\PinballruleEngine.Test.runtimeconfig.dev.json
+C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine.Test\bin\Debug\netcoreapp3.1\PinballruleEngine.Test.dll
+C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine.Test\bin\Debug\netcoreapp3.1\PinballruleEngine.Test.pdb
+C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine.Test\bin\Debug\netcoreapp3.1\PinballruleEngine.dll
+C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine.Test\bin\Debug\netcoreapp3.1\PinballruleEngine.pdb
+C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine.Test\obj\Debug\netcoreapp3.1\PinballruleEngine.Test.csproj.CopyComplete
+C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine.Test\obj\Debug\netcoreapp3.1\PinballruleEngine.Test.dll
+C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine.Test\obj\Debug\netcoreapp3.1\PinballruleEngine.Test.pdb
+C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine.Test\obj\Debug\netcoreapp3.1\PinballruleEngine.Test.genruntimeconfig.cache

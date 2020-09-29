@@ -1,9 +1,8 @@
-﻿using PinballruleEngine.Evaluator.GardenPointLexer;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace PinballruleEngine.Evaluator.EvaluationParser
+namespace PinballruleEngine.RuleEngine
 {
     public class ExpressionEvaluatorGeneric : EvaluatorBase
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using PinballruleEngine.Enum;
 
-namespace PinballruleEngine.Engine
+namespace PinballruleEngine.RuleEngine
 {
     public class Rule
     {

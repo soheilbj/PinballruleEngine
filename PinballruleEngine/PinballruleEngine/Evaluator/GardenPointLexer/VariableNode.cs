@@ -1,4 +1,5 @@
-﻿namespace PinballruleEngine.Evaluator.GardenPointLexer
+﻿
+namespace PinballruleEngine.RuleEngine
 {
     public class VariableNode : AbstractSyntaxTreeNode
     {

@@ -1,13 +1,12 @@
 ﻿using PinballruleEngine.Enum;
-using PinballruleEngine.Evaluator.GardenPointLexer;
 using System;
 
-namespace PinballruleEngine.Evaluator.EvaluationParser
+namespace PinballruleEngine.RuleEngine
 {
 
     public abstract class Parser
     {
-        protected PinballruleEngine.Evaluator.Lexer input;
+        protected Lexer input;
         protected Token[] lookahead;
         protected int lookaheadCount;
         protected int lookaheadIndex = 0;

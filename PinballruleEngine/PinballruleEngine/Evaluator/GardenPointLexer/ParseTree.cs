@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PinballruleEngine.Evaluator.GardenPointLexer
+namespace PinballruleEngine.RuleEngine
 {
     public class ParseTree : AbstractSyntaxTree
     {

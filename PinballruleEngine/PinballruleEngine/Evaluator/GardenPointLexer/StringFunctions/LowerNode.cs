@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using PinballruleEngine.RuleEngine;
 
-namespace PinballruleEngine.Evaluator.GardenPointLexer.StringFunctions
+namespace PinballruleEngine.RuleEngine
 {
     public class LowerNode : StringFunctionNode
     {

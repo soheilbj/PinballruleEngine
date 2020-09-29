@@ -1,9 +1,8 @@
 ﻿using PinballruleEngine.Enum;
-using PinballruleEngine.Evaluator;
 using System;
 using System.Text;
 
-namespace PinballruleEngine.ExpressionEvaluation
+namespace PinballruleEngine.RuleEngine
 {
     public class ExpressionEvaluatorLexer : Lexer
     {
