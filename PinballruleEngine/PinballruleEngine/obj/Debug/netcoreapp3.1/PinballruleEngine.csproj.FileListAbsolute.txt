@@ -1,12 +1,9 @@
 C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine\obj\Debug\netcoreapp3.1\PinballruleEngine.AssemblyInfoInputs.cache
 C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine\obj\Debug\netcoreapp3.1\PinballruleEngine.AssemblyInfo.cs
 C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine\obj\Debug\netcoreapp3.1\PinballruleEngine.csproj.CoreCompileInputs.cache
-C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine\bin\Debug\netcoreapp3.1\PinballruleEngine.exe
 C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine\bin\Debug\netcoreapp3.1\PinballruleEngine.deps.json
-C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine\bin\Debug\netcoreapp3.1\PinballruleEngine.runtimeconfig.json
-C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine\bin\Debug\netcoreapp3.1\PinballruleEngine.runtimeconfig.dev.json
 C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine\bin\Debug\netcoreapp3.1\PinballruleEngine.dll
 C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine\bin\Debug\netcoreapp3.1\PinballruleEngine.pdb
 C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine\obj\Debug\netcoreapp3.1\PinballruleEngine.dll
 C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine\obj\Debug\netcoreapp3.1\PinballruleEngine.pdb
-C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine\obj\Debug\netcoreapp3.1\PinballruleEngine.genruntimeconfig.cache
+C:\Users\S.bijavar\source\repos\soheilbj\PinballruleEngine\PinballruleEngine\PinballruleEngine\obj\Debug\netcoreapp3.1\PinballruleEngine.csprojAssemblyReference.cache

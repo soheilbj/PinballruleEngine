@@ -1,8 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Soheil Bijavar</Authors>
+    <Description>a rule engine based on c# and lexer analysis core project for implement on any web application wants to evaluation data</Description>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,6 +17,87 @@
     <Compile Include="Enum\Operator.cs" />
     <Compile Include="Enum\ResultEnum.cs" />
     <Compile Include="Enum\TokenType.cs" />
+    <Compile Include="Evaluator\DynamicBaseClass.cs" />
+    <Compile Include="Evaluator\EvaluationParser\EvaluatorBase.cs" />
+    <Compile Include="Evaluator\EvaluationParser\ExpressionEvaluator.cs" />
+    <Compile Include="Evaluator\EvaluationParser\ExpressionEvaluatorDynamic.cs" />
+    <Compile Include="Evaluator\EvaluationParser\ExpressionEvaluatorDynamicBaseClass.cs" />
+    <Compile Include="Evaluator\EvaluationParser\ExpressionEvaluatorGeneric.cs" />
+    <Compile Include="Evaluator\EvaluationParser\ExpressionEvaluatorParser.cs" />
+    <Compile Include="Evaluator\EvaluationParser\InfixToPostfix.cs" />
+    <Compile Include="Evaluator\EvaluationParser\Parser.cs" />
+    <Compile Include="Evaluator\EvaluationParser\ThenElse.cs" />
+    <Compile Include="Evaluator\Evaluator.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\AbstractSyntaxTree.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\AbstractSyntaxTreeNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\AddNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\AggregateFunctions\AggregateAverageNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\AggregateFunctions\AggregateCountNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\AggregateFunctions\AggregateInNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\AggregateFunctions\AggregateMaxNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\AggregateFunctions\AggregateMinNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\AggregateFunctions\AggregateNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\AggregateFunctions\AggregateNotInNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\AggregateFunctions\AggregateSumNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\AggregateFunctions\Class1.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\AndNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\BinaryNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\BooleanNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\ClassVarableNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\CloseBracketNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\CloseSquareBracketNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\CollectionNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\CommaNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\DateTimeNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\DivNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\DoubleNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\ElseNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\EqualNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\FieldNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\FilterNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\GreaterThenNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\GreaterThenOrEqualNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\IntegerNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\IsNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\LikeNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\LogicalNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\MethodCallNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\ModuloNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\MulNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\NullNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\ObjectNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\OpenBracketNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\OpenSquareBracketNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\OrNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\ParseTree.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\PointNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\RelationNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\SetNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\SmallerThenNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\SmallerThenOrEqualNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\StringFunctions\LeftTrimNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\StringFunctions\LengthNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\StringFunctions\LowerNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\StringFunctions\RightTrimNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\StringFunctions\StringFunctionNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\StringFunctions\TrimNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\StringFunctions\UpperNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\StringNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\SubNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\ThenNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\UnEqualNode.cs" />
+    <Compile Include="Evaluator\GardenPointLexer\VariableNode.cs" />
+    <Compile Include="Evaluator\Lexer\ExpressionEvaluatorLexer.cs" />
+    <Compile Include="Evaluator\Lexer\Lexer.cs" />
+    <Compile Include="Evaluator\Lexer\Token.cs" />
+    <Compile Include="Parser\LexerItems.cs" />
+    <Compile Include="Parser\RegularExpressionPart.cs" />
+    <Compile Include="Parser\RegularExpressionTransformer.cs" />
+    <Compile Include="Parser\Result.cs" />
+    <Compile Include="Parser\State.cs" />
+    <Compile Include="Parser\StateMachine.cs" />
+    <Compile Include="Parser\StateMachineBuilder.cs" />
+    <Compile Include="Parser\StatusTransition.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
 
